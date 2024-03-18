@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-03-18T15:34:16 EDT" name="Suite" finished-at="2024-03-18T15:34:46 EDT" duration-ms="29878">
+  <suite started-at="2024-03-18T17:02:06 EDT" name="Suite" finished-at="2024-03-18T17:02:33 EDT" duration-ms="27480">
     <groups>
     </groups>
-    <test started-at="2024-03-18T15:34:16 EDT" name="Test" finished-at="2024-03-18T15:34:46 EDT" duration-ms="29878">
+    <test started-at="2024-03-18T17:02:06 EDT" name="Test" finished-at="2024-03-18T17:02:33 EDT" duration-ms="27480">
       <class name="com.firebasetest.FirebaseAutomationTest">
-        <test-method signature="VaildLogin_FireBase_TestScript()[pri:0, instance:com.firebasetest.FirebaseAutomationTest@3d6f0054]" started-at="2024-03-18T15:34:16 EDT" name="VaildLogin_FireBase_TestScript" finished-at="2024-03-18T15:34:37 EDT" duration-ms="20852" status="PASS">
+        <test-method signature="VaildLogin_FireBase_TestScript()[pri:0, instance:com.firebasetest.FirebaseAutomationTest@3d6f0054]" started-at="2024-03-18T17:02:06 EDT" name="VaildLogin_FireBase_TestScript" finished-at="2024-03-18T17:02:25 EDT" duration-ms="18762" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VaildLogin_FireBase_TestScript -->
-        <test-method signature="errorLogin_FireBase_TestScript()[pri:1, instance:com.firebasetest.FirebaseAutomationTest@3d6f0054]" started-at="2024-03-18T15:34:37 EDT" name="errorLogin_FireBase_TestScript" finished-at="2024-03-18T15:34:46 EDT" duration-ms="8941" status="PASS">
+        <test-method signature="errorLogin_FireBase_TestScript()[pri:1, instance:com.firebasetest.FirebaseAutomationTest@3d6f0054]" started-at="2024-03-18T17:02:25 EDT" name="errorLogin_FireBase_TestScript" finished-at="2024-03-18T17:02:33 EDT" duration-ms="8642" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- errorLogin_FireBase_TestScript -->
