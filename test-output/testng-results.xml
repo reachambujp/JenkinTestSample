@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-03-18T12:32:53 EDT" name="Default suite" finished-at="2024-03-18T12:33:18 EDT" duration-ms="25160">
+    <groups>
+    </groups>
+    <test started-at="2024-03-18T12:32:53 EDT" name="Default test" finished-at="2024-03-18T12:33:18 EDT" duration-ms="25160">
+      <class name="com.firebasetest.FirebaseAutomationTest">
+        <test-method signature="VaildLogin_FireBase_TestScript()[pri:0, instance:com.firebasetest.FirebaseAutomationTest@242b836]" started-at="2024-03-18T12:32:53 EDT" name="VaildLogin_FireBase_TestScript" finished-at="2024-03-18T12:33:10 EDT" duration-ms="16975" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VaildLogin_FireBase_TestScript -->
+        <test-method signature="errorLogin_FireBase_TestScript()[pri:1, instance:com.firebasetest.FirebaseAutomationTest@242b836]" started-at="2024-03-18T12:33:10 EDT" name="errorLogin_FireBase_TestScript" finished-at="2024-03-18T12:33:18 EDT" duration-ms="8127" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- errorLogin_FireBase_TestScript -->
+      </class> <!-- com.firebasetest.FirebaseAutomationTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
