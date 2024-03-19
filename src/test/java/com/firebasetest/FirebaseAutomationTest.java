@@ -21,6 +21,7 @@ public class FirebaseAutomationTest {
 		System.out.println("Chrome browser open");
 		driver.get("https://qa-tekarch.firebaseapp.com");
 		System.out.println("Url open in Chrome browser");
+		
 
 		
 		// user name field
@@ -79,7 +80,7 @@ public class FirebaseAutomationTest {
 		WebElement postalAddress = driver.findElement(By.xpath("//input[@id='postaladdress']"));
 		if (postalAddress.isDisplayed()) {
 			postalAddress.clear();
-			postalAddress.sendKeys("Hunterville, NorthCarolina");
+			postalAddress.sendKeys("Hunterville, SouthCarolina");
 			System.out.println("Entered postalAddress in postalAddress field");
 		} else {
 			System.out.println("Postal Address field is not diplayed");
