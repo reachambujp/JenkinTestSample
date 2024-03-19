@@ -24,7 +24,6 @@ public class FirebaseAutomationTest {
 		
 
 		
-		// user name field
 		WebElement emailField = driver.findElement(By.id("email_field"));
 
 		if (emailField.isDisplayed()) {
@@ -35,7 +34,7 @@ public class FirebaseAutomationTest {
 			System.out.println("username field is not displayed");
 		}
 
-		// password field
+	
 		WebElement passwordField = driver.findElement(By.id("password_field"));
 		if (passwordField.isDisplayed()) {
 			passwordField.clear();
@@ -45,7 +44,6 @@ public class FirebaseAutomationTest {
 			System.out.println("password field is not displayed");
 		}
 
-		// login to Account
 		Thread.sleep(2000);
 		WebElement loginElement = driver.findElement(By.xpath("//button[@onclick='login()']"));
 		if (loginElement.isDisplayed()) {
@@ -60,7 +58,7 @@ public class FirebaseAutomationTest {
 		WebElement nameElement = driver.findElement(By.xpath("//input[@id='name']"));
 		if (nameElement.isDisplayed()) {
 			nameElement.clear();
-			nameElement.sendKeys("Ambuj Pandey");
+			nameElement.sendKeys("Mary Brown");
 			System.out.println("Entered name in nameElement");
 		} else {
 			System.out.println("Name field is not diplayed");
