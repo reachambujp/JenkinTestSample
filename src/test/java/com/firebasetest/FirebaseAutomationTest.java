@@ -220,7 +220,8 @@ public class FirebaseAutomationTest {
 		}
 
 		driver.close();
-		System.out.println("Test script is completed");
+		
+		System.out.println("Test script is completed ....");
 
 	}
 	
