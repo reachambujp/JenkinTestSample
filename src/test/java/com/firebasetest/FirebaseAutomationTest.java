@@ -21,6 +21,7 @@ public class FirebaseAutomationTest {
 		System.out.println("Chrome browser open");
 		driver.get("https://qa-tekarch.firebaseapp.com");
 		System.out.println("Url open in Chrome browser");
+		System.out.println("Url open in Chrome browser");
 		
 
 		
